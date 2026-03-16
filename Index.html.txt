@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Click & Done Freelancer Jay</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #0f5fa0;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: #154b7d;
+    }
+    header h1 {
+      color: #ffd700;
+      margin: 0;
+      font-size: 40px;
+    }
+    header h2 {
+      margin: 10px 0;
+      font-size: 22px;
+    }
+    section {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.05);
+      border-radius: 10px;
+    }
+    h3 {
+      color: #ffd700;
+      margin-bottom: 15px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li {
+      padding: 8px 0;
+      font-size: 18px;
+    }
+    .contact {
+      margin-top: 20px;
+    }
+    .contact p {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+    .poster img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #154b7d;
+      margin-top: 40px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Click & Done Freelancer Jay</h1>
+  <h2>Professional Remote Services</h2>
+</header>
+
+<section>
+  <h3>Services I Offer:</h3>
+  <ul>
+    <li>Virtual Assistant – email, calendar, admin tasks</li>
+    <li>Customer Support / Email Management</li>
+    <li>Social Media Management</li>
+    <li>Facebook & Instagram Ads Support</li>
+    <li>Website & Domain Setup</li>
+  </ul>
+
+  <div class="contact">
+    <h3>Contact Me:</h3>
+    <p>Email: <a href="mailto:contact@freelancerjay.store" style="color:#ffd700;">contact@freelancerjay.store</a></p>
+    <p>Alt Email: <a href="mailto:jay@freelancerjay.store" style="color:#ffd700;">jay@freelancerjay.store</a></p>
+    <p>WhatsApp: <a href="https://wa.me/2349026848509" target="_blank" style="color:#ffd700;">+2349026848509</a></p>
+  </div>
+
+  <div class="poster">
+    <h3>Services Poster:</h3>
+    <img src="poster.png" alt="Click & Done Freelancer Jay Poster">
+  </div>
+</section>
+
+<footer>
+  &copy; 2026 Click & Done Freelancer Jay. All rights reserved.
+</footer>
+
+</body>
+</html>
