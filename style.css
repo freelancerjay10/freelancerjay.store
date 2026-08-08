@@ -175,3 +175,21 @@ transition:transform .3s ease, box-shadow .3s ease;
 transform:translateY(-4px);
 box-shadow:0 15px 35px rgba(50,30,100,.25);
 }
+
+.learn-box{
+margin-top:25px;
+padding:20px 22px;
+background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(236,72,153,.08));
+border-left:5px solid #7c3aed;
+border-radius:12px;
+}
+
+.learn-box h4{
+margin:0 0 10px 0;
+font-size:21px;
+color:#7c3aed;
+}
+
+.learn-box ul{
+margin:0;
+}
