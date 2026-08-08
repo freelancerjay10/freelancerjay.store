@@ -193,3 +193,20 @@ color:#7c3aed;
 .learn-box ul{
 margin:0;
 }
+.learn-box{
+margin-top:25px;
+padding:20px 22px;
+background:linear-gradient(135deg,rgba(124,58,237,.08),rgba(236,72,153,.08));
+border-left:5px solid #7c3aed;
+border-radius:12px;
+}
+
+.learn-box h4{
+margin:0 0 10px 0;
+font-size:21px;
+color:#7c3aed;
+}
+
+.learn-box ul{
+margin:0;
+}
