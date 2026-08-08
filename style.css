@@ -1,11 +1,162 @@
+*{
+box-sizing:border-box;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
 body{
 margin:0;
 font-family:Arial,sans-serif;
 color:#333;
 background:
-radial-gradient(circle at 10% 20%, rgba(124,58,237,.18), transparent 30%),
+radial-gradient(circle at 10% 15%, rgba(124,58,237,.20), transparent 30%),
 radial-gradient(circle at 90% 10%, rgba(10,102,194,.20), transparent 30%),
-radial-gradient(circle at 50% 90%, rgba(236,72,153,.14), transparent 35%),
+radial-gradient(circle at 50% 90%, rgba(236,72,153,.15), transparent 35%),
 linear-gradient(135deg,#eef4ff,#f8f3ff,#ffffff);
+background-attachment:fixed;
 min-height:100vh;
+}
+
+header{
+background:linear-gradient(135deg,#0A66C2,#6d28d9);
+color:white;
+text-align:center;
+padding:65px 20px;
+box-shadow:0 10px 35px rgba(10,102,194,.25);
+}
+
+header h1{
+font-size:38px;
+margin:0;
+}
+
+header p{
+font-size:18px;
+margin-top:12px;
+line-height:1.6;
+}
+
+section{
+max-width:900px;
+margin:auto;
+padding:45px 20px;
+}
+
+.card{
+background:rgba(255,255,255,.94);
+padding:30px;
+border-radius:18px;
+box-shadow:0 8px 30px rgba(50,30,100,.10);
+margin-bottom:28px;
+border:1px solid rgba(255,255,255,.8);
+}
+
+.card:hover{
+transform:translateY(-3px);
+transition:.25s ease;
+box-shadow:0 12px 35px rgba(50,30,100,.14);
+}
+
+h2{
+color:#0A66C2;
+margin-top:0;
+}
+
+ul{
+line-height:2;
+padding-left:25px;
+}
+
+.button,
+.product-button{
+display:inline-block;
+padding:14px 28px;
+color:white;
+text-decoration:none;
+border-radius:9px;
+margin-top:15px;
+margin-right:8px;
+font-weight:bold;
+transition:.25s ease;
+}
+
+.button{
+background:#0A66C2;
+}
+
+.button:hover{
+background:#084f96;
+transform:translateY(-2px);
+}
+
+.product-card{
+border:2px solid rgba(124,58,237,.18);
+}
+
+.product-title{
+font-size:27px;
+color:#7c3aed;
+margin-bottom:10px;
+}
+
+.price{
+font-size:26px;
+font-weight:bold;
+color:#7c3aed;
+margin-top:20px;
+}
+
+.product-button{
+background:linear-gradient(135deg,#7c3aed,#db2777);
+box-shadow:0 7px 20px rgba(124,58,237,.25);
+}
+
+.product-button:hover{
+transform:translateY(-2px);
+box-shadow:0 10px 25px rgba(124,58,237,.35);
+}
+
+a{
+color:#0A66C2;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:25px 20px;
+margin-top:20px;
+}
+
+@media(max-width:600px){
+
+header{
+padding:45px 18px;
+}
+
+header h1{
+font-size:30px;
+}
+
+header p{
+font-size:16px;
+}
+
+section{
+padding:30px 15px;
+}
+
+.card{
+padding:23px;
+}
+
+.button,
+.product-button{
+display:block;
+text-align:center;
+margin-right:0;
+width:100%;
+}
 }
