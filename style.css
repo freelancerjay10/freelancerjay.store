@@ -160,3 +160,18 @@ margin-right:0;
 width:100%;
 }
 }
+.product-cover{
+display:block;
+width:100%;
+max-width:420px;
+height:auto;
+margin:0 auto 25px auto;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(50,30,100,.18);
+transition:transform .3s ease, box-shadow .3s ease;
+}
+
+.product-cover:hover{
+transform:translateY(-4px);
+box-shadow:0 15px 35px rgba(50,30,100,.25);
+}
